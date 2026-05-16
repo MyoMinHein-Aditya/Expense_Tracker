@@ -4,7 +4,7 @@ from datetime import datetime
 import io
 
 app = Flask(__name__)
-DB = "expenses.db"
+DB = "/data/expenses.db"
 
 def get_db():
     conn = sqlite3.connect(DB)
